@@ -192,8 +192,8 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-500 dark:text-gray-400">
-                Many of our resources are freely available for educational use. Some specialized materials and training
-                programs may have associated costs to support our nonprofit mission.
+                Yes! All of our resources are completely free and openly accessible.
+                We believe in spreading knowledge without barriers, ensuring that students and educators have the tools they need to combat misinformation.
               </p>
             </CardContent>
           </Card>
@@ -210,12 +210,13 @@ export default function ContactPage() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle className="text-lg">How can students get involved?</CardTitle>
+              <CardTitle className="text-lg">How can I support your initiative?</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-500 dark:text-gray-400">
-                Students can participate through our student ambassador program, internships, or by organizing awareness
-                events on their campus. Contact us for more information.
+                The best way to support our initiative is by spreading awareness.
+                Sharing our resources and educating others about misinformation is more than enough.
+                We are a non-profit initiative, and we do not seek financial support, just your voice in this mission!
               </p>
             </CardContent>
           </Card>

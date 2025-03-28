@@ -155,7 +155,125 @@ export default function ResourcesPage() {
             </Card>
           </div>
         </TabsContent>
-        {/* Students section remains unchanged from previous submission */}
+        <TabsContent value="students" className="mt-6">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <Card>
+              <CardHeader>
+                <FileText className="h-6 w-6 text-primary mb-2" />
+                <CardTitle>Checkology Virtual Classroom</CardTitle>
+                <CardDescription>News Literacy Project</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  An interactive platform offering lessons on news literacy, empowering students to discern credible information and recognize misinformation.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-between">
+                <a
+                  href="https://newslit.org/educators/checkology/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="sm">
+                    <ExternalLink className="mr-2 h-4 w-4" /> Read Details
+                  </Button>
+                </a>
+              </CardFooter>
+            </Card>
+            <Card>
+              <CardHeader>
+                <Smartphone className="h-6 w-6 text-primary mb-2" />
+                <CardTitle>Civic Online Reasoning (COR) Lessons</CardTitle>
+                <CardDescription>Stanford History Education Group</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  Research-backed lessons that teach students how to evaluate online information critically, distinguishing credible sources from misinformation.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-between">
+                <a
+                  href="https://cor.stanford.edu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="sm">
+                    <ExternalLink className="mr-2 h-4 w-4" /> Visit Details
+                  </Button>
+                </a>
+              </CardFooter>
+            </Card>
+            <Card>
+              <CardHeader>
+                <BookOpen className="h-6 w-6 text-primary mb-2" />
+                <CardTitle>Fake News Teaching Resources</CardTitle>
+                <CardDescription>Temple University</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  A comprehensive guide offering lessons, activities, and materials to help students identify and avoid false information.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-between">
+                <a
+                  href="https://guides.temple.edu/fakenews/teaching"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="sm">
+                    <ExternalLink className="mr-2 h-4 w-4" /> Visit Details
+                  </Button>
+                </a>
+              </CardFooter>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CheckSquare className="h-6 w-6 text-primary mb-2" />
+                <CardTitle>Misinfo 101: Help Students Steer Clear of Misinformation</CardTitle>
+                <CardDescription>News Literacy Project</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  A resource providing strategies for students to determine the credibility of evidence and sources.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-between">
+                <a
+                  href="https://newslit.org/misinfo-101/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="sm">
+                    <Download className="mr-2 h-4 w-4" /> Download Preview
+                  </Button>
+                </a>
+              </CardFooter>
+            </Card>
+            <Card>
+              <CardHeader>
+                <Newspaper className="h-6 w-6 text-primary mb-2" />
+                <CardTitle>Crash Course: Media Literacy</CardTitle>
+                <CardDescription>CrashCourse</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  A 12-episode video series that explores the history and psychology of media, equipping students with skills to critically analyze media messages and recognize misinformation.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-between">
+                <a
+                  href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="sm">
+                    <Video className="mr-2 h-4 w-4" /> Watch Details
+                  </Button>
+                </a>
+              </CardFooter>
+            </Card>
+          </div>
+        </TabsContent>
         <TabsContent value="institutions" className="mt-6">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <Card>

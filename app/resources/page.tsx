@@ -201,32 +201,22 @@ export default function ResourcesPage() {
             <Card>
               <CardHeader>
                 <FileText className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>Helping Students Spot Misinformation Online</CardTitle>
-                <CardDescription>National Education Association</CardDescription>
+                <CardTitle>Checkology Virtual Classroom</CardTitle>
+                <CardDescription>News Literacy Project</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Tools and strategies to help students identify accurate and inaccurate news, enhancing their media
-                  literacy skills.
+                  An interactive platform offering lessons on news literacy, empowering students to discern credible information and recognize misinformation.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
                 <a
-                  href="https://www.nea.org/nea-today/all-news-articles/helping-students-spot-misinformation-online"
+                  href="https://newslit.org/educators/checkology/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button variant="outline" size="sm">
-                    <ExternalLink className="mr-2 h-4 w-4" /> Read
-                  </Button>
-                </a>
-                <a
-                  href="https://www.nea.org/nea-today/all-news-articles/helping-students-spot-misinformation-online"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="ghost" size="sm">
-                    Details
+                    <ExternalLink className="mr-2 h-4 w-4" /> Read Details
                   </Button>
                 </a>
               </CardFooter>
@@ -234,24 +224,22 @@ export default function ResourcesPage() {
             <Card>
               <CardHeader>
                 <Smartphone className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>Informable Mobile App</CardTitle>
-                <CardDescription>News Literacy Project</CardDescription>
+                <CardTitle>Civic Online Reasoning (COR) Lessons</CardTitle>
+                <CardDescription>Stanford History Education Group</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A game-like app designed to help users practice news literacy skills, including identifying
-                  misinformation.
+                  Research-backed lessons that teach students how to evaluate online information critically, distinguishing credible sources from misinformation.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <a href="https://newslit.org/educators/informable/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://cor.stanford.edu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button variant="outline" size="sm">
-                    <ExternalLink className="mr-2 h-4 w-4" /> Get App
-                  </Button>
-                </a>
-                <a href="https://newslit.org/educators/informable/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="sm">
-                    Details
+                    <ExternalLink className="mr-2 h-4 w-4" /> Visit Details
                   </Button>
                 </a>
               </CardFooter>
@@ -259,32 +247,22 @@ export default function ResourcesPage() {
             <Card>
               <CardHeader>
                 <BookOpen className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>Media Literacy: Teaching & Learning Resources</CardTitle>
-                <CardDescription>University of North Carolina at Charlotte</CardDescription>
+                <CardTitle>Fake News Teaching Resources</CardTitle>
+                <CardDescription>Temple University</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A compilation of resources to help students develop media literacy skills and recognize
-                  misinformation.
+                  A comprehensive guide offering lessons, activities, and materials to help students identify and avoid false information.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
                 <a
-                  href="https://respectfulconversation.charlotte.edu/media-literacy-teaching-and-learning-resources/"
+                  href="https://guides.temple.edu/fakenews/teaching"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button variant="outline" size="sm">
-                    <ExternalLink className="mr-2 h-4 w-4" /> Visit
-                  </Button>
-                </a>
-                <a
-                  href="https://respectfulconversation.charlotte.edu/media-literacy-teaching-and-learning-resources/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="ghost" size="sm">
-                    Details
+                    <ExternalLink className="mr-2 h-4 w-4" /> Visit Details
                   </Button>
                 </a>
               </CardFooter>
@@ -292,32 +270,22 @@ export default function ResourcesPage() {
             <Card>
               <CardHeader>
                 <CheckSquare className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>FLOATER: A Toolkit for Evaluating Claims</CardTitle>
-                <CardDescription>Thinking Is Power</CardDescription>
+                <CardTitle>Misinfo 101: Help Students Steer Clear of Misinformation</CardTitle>
+                <CardDescription>News Literacy Project</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A toolkit that includes a printable poster with seven rules for evaluating claims, aimed at enhancing
-                  critical thinking skills.
+                  A resource providing strategies for students to determine the credibility of evidence and sources.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
                 <a
-                  href="https://thinkingispower.com/floater-a-toolkit-for-evaluating-claims/"
+                  href="https://newslit.org/misinfo-101/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button variant="outline" size="sm">
-                    <Download className="mr-2 h-4 w-4" /> Download
-                  </Button>
-                </a>
-                <a
-                  href="https://thinkingispower.com/floater-a-toolkit-for-evaluating-claims/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="ghost" size="sm">
-                    Preview
+                    <Download className="mr-2 h-4 w-4" /> Download Preview
                   </Button>
                 </a>
               </CardFooter>
@@ -325,32 +293,22 @@ export default function ResourcesPage() {
             <Card>
               <CardHeader>
                 <Newspaper className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>Media Literacy in Schools</CardTitle>
-                <CardDescription>Teen Vogue</CardDescription>
+                <CardTitle>Crash Course: Media Literacy</CardTitle>
+                <CardDescription>CrashCourse</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  An article discussing the rise of media literacy education in schools to help students navigate
-                  misinformation and conspiracy theories.
+                  A 12-episode video series that explores the history and psychology of media, equipping students with skills to critically analyze media messages and recognize misinformation.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
                 <a
-                  href="https://www.teenvogue.com/story/media-literacy-schools-misinformation"
+                  href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtM6jSpzb5gMNsx9kdmqBfmY"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button variant="outline" size="sm">
-                    <ExternalLink className="mr-2 h-4 w-4" /> Read
-                  </Button>
-                </a>
-                <a
-                  href="https://www.teenvogue.com/story/media-literacy-schools-misinformation"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="ghost" size="sm">
-                    Details
+                    <Video className="mr-2 h-4 w-4" /> Watch Details
                   </Button>
                 </a>
               </CardFooter>
@@ -484,4 +442,3 @@ export default function ResourcesPage() {
     </div>
   )
 }
-

@@ -6,7 +6,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Copy, FileText, Book, Globe } from "lucide-react"
 
 export default function ReferencesPage() {
-  // Update the references state with the provided citations
   const [references, setReferences] = useState([
     {
       id: 1,
@@ -16,104 +15,95 @@ export default function ReferencesPage() {
       year: "2025",
       citation: '[1] I. Sadeq, "The Impact of Misinformation on College Students," Technical Report, 2025.',
     },
+    // Educators Resources
     {
       id: 2,
       type: "document",
       title: "Media Literacy Resource Guide",
       authors: "San Diego County Office of Education",
       year: "2024",
-      citation: '[2] San Diego County Office of Education, "Media Literacy Resource Guide," SDCOE, 2024. [Online]. Available: https://www.sdcoe.net/about-sdcoe/news/post/~board/news/post/media-literacy-resource-guide',
+      citation: '[2] San Diego County Office of Education, "Media Literacy Resource Guide," San Diego, CA, 2024.',
     },
     {
       id: 3,
       type: "article",
       title: "How to Teach Students Critical Thinking Skills to Combat Misinformation",
       authors: "American Psychological Association",
-      journal: "Monitor on Psychology",
       year: "2024",
       citation: '[3] American Psychological Association, "How to Teach Students Critical Thinking Skills to Combat Misinformation," Monitor on Psychology, vol. 55, no. 8, pp. 12-15, Sep. 2024.',
     },
     {
       id: 4,
       type: "website",
-      title: "Critical Media Project",
+      title: "Critical Media Project: Media Literacy Resources",
       authors: "Respectful Conversation",
       year: "2024",
       citation: '[4] Respectful Conversation, "Critical Media Project," 2024. [Online]. Available: https://www.criticalmediaproject.org/',
     },
     {
       id: 5,
-      type: "website",
-      title: "Teaching Resources - Critical Thinking: News and Media Literacy",
+      type: "document",
+      title: "Teaching Resources for Critical Thinking and Media Literacy",
       authors: "Alberta Teachers' Association",
       year: "2024",
-      citation: '[5] Alberta Teachers\' Association, "Teaching Resources - Critical Thinking: News and Media Literacy," 2024. [Online]. Available: https://teachers-ab.libguides.com/criticalthinking/teaching',
+      citation: '[5] Alberta Teachers\' Association, "Teaching Resources - Critical Thinking: News and Media Literacy," Calgary, AB, 2024.',
     },
     {
       id: 6,
       type: "document",
-      title: "Digital Media Literacy Toolkit",
-      authors: "Department of Homeland Security",
+      title: "Checkology Virtual Classroom",
+      authors: "News Literacy Project",
       year: "2024",
-      citation: '[6] U.S. Department of Homeland Security, "Digital Media Literacy Toolkit," 2024. [Online]. Available: https://www.dhs.gov/sites/default/files/publications/digital_media_literacy_1.pdf',
+      citation: '[6] News Literacy Project, "Checkology Virtual Classroom," Washington, DC, 2024.',
     },
     {
       id: 7,
-      type: "website",
-      title: "Helping Students Spot Misinformation Online",
-      authors: "National Education Association",
+      type: "document",
+      title: "Civic Online Reasoning (COR) Lessons",
+      authors: "Stanford History Education Group",
       year: "2024",
-      citation: '[7] National Education Association, "Helping Students Spot Misinformation Online," NEA Today, 2024. [Online]. Available: https://www.nea.org/nea-today/all-news-articles/helping-students-spot-misinformation-online',
+      citation: '[7] Stanford History Education Group, "Civic Online Reasoning (COR) Lessons," Stanford, CA, 2024.',
     },
     {
       id: 8,
-      type: "website",
-      title: "Informable Mobile App",
-      authors: "News Literacy Project",
+      type: "document",
+      title: "Fake News Teaching Resources",
+      authors: "Temple University Libraries",
       year: "2024",
-      citation: '[8] News Literacy Project, "Informable Mobile App," 2024. [Online]. Available: https://newslit.org/educators/informable/',
+      citation: '[8] Temple University Libraries, "Fake News Teaching Resources," Philadelphia, PA, 2024.',
     },
     {
       id: 9,
-      type: "website",
-      title: "Media Literacy: Teaching & Learning Resources",
-      authors: "University of North Carolina at Charlotte",
+      type: "document",
+      title: "Misinfo 101: Misinformation Prevention Guide",
+      authors: "News Literacy Project",
       year: "2024",
-      citation: '[9] University of North Carolina at Charlotte, "Media Literacy: Teaching & Learning Resources," 2024. [Online]. Available: https://respectfulconversation.charlotte.edu/media-literacy-teaching-and-learning-resources/',
+      citation: '[9] News Literacy Project, "Misinfo 101: Help Students Steer Clear of Misinformation," Washington, DC, 2024.',
     },
     {
       id: 10,
-      type: "website",
-      title: "FLOATER: A Toolkit for Evaluating Claims",
-      authors: "Thinking Is Power",
+      type: "video",
+      title: "Crash Course: Media Literacy Series",
+      authors: "CrashCourse",
       year: "2024",
-      citation: '[10] Thinking Is Power, "FLOATER: A Toolkit for Evaluating Claims," 2024. [Online]. Available: https://thinkingispower.com/floater-a-toolkit-for-evaluating-claims/',
+      citation: '[10] CrashCourse, "Media Literacy Video Series," YouTube, 2024.',
     },
     {
       id: 11,
-      type: "article",
-      title: "Media Literacy in Schools Is on the Rise",
-      authors: "L. Michele",
-      journal: "Teen Vogue",
-      year: "2024",
-      citation: '[11] L. Michele, "Media Literacy in Schools Is on the Rise as Teachers Grapple With Misinformation and Conspiracy Theories," Teen Vogue, 2024.',
-    },
-    {
-      id: 12,
-      type: "website",
+      type: "document",
       title: "Emphasizing Media Literacy in the Classroom",
       authors: "Democracy Toolkit",
       year: "2024",
-      citation: '[12] Democracy Toolkit, "Emphasizing Media Literacy in the Classroom," 2024. [Online]. Available: https://democracytoolkit.press/resources/emphasize-media-literacy-classroom/',
+      citation: '[11] Democracy Toolkit, "Media Literacy Educational Resources," 2024.',
     },
     {
-      id: 13,
+      id: 12,
       type: "document",
-      title: "Media Literacy & Critical Thinking Online Toolkit for Institutions",
+      title: "Media Literacy & Critical Thinking Online Toolkit",
       authors: "Department of Homeland Security",
       year: "2024",
-      citation: '[13] U.S. Department of Homeland Security, "Media Literacy & Critical Thinking Online Toolkit for Institutions," 2024. [Online]. Available: https://www.dhs.gov/sites/default/files/publications/digital_media_literacy_1.pdf',
-    },
+      citation: '[12] U.S. Department of Homeland Security, "Digital Media Literacy Toolkit," Washington, DC, 2024.',
+    }
   ])
 
   const handleCopyReference = (citation) => {
@@ -162,6 +152,7 @@ export default function ReferencesPage() {
                         {ref.type === "book" && <Book className="h-5 w-5 text-primary" />}
                         {ref.type === "website" && <Globe className="h-5 w-5 text-primary" />}
                         {ref.type === "document" && <FileText className="h-5 w-5 text-primary" />}
+                        {ref.type === "video" && <Video className="h-5 w-5 text-primary" />}
                       </div>
                       <div className="flex-1">
                         <p className="text-sm font-medium">{ref.title}</p>

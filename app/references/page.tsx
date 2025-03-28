@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Copy, FileText, Book, Globe, Video } from "lucide-react"
+import { Copy, FileText, Book, Globe, Video, Image } from "lucide-react"
 
 export default function ReferencesPage() {
   const [references, setReferences] = useState([
@@ -102,6 +102,55 @@ export default function ReferencesPage() {
       authors: "Department of Homeland Security",
       year: "2024",
       citation: '[12] U.S. Department of Homeland Security, "Digital Media Literacy Toolkit," Technical Report, DHS, 2024. [Online]. Available: https://www.dhs.gov/sites/default/files/publications/digital_media_literacy_1.pdf. (Accessed: Mar. 29, 2025).',
+    },
+    // Unsplash Image Citations
+    {
+      id: 13,
+      type: "image",
+      title: "Students collaborating",
+      authors: "Unsplash",
+      year: "2024",
+      citation: '[13] "Students collaborating," Unsplash, 2024. [Online]. Available: https://images.unsplash.com/photo-1523050854058-8df90110c9f1. [Accessed: Mar. 29, 2025].',
+    },
+    {
+      id: 14,
+      type: "image",
+      title: "Critical thinking concept",
+      authors: "Unsplash",
+      year: "2024",
+      citation: '[14] "Critical thinking concept," Unsplash, 2024. [Online]. Available: https://images.unsplash.com/photo-1493612276216-ee3925520721. [Accessed: Mar. 29, 2025].',
+    },
+    {
+      id: 15,
+      type: "image",
+      title: "Person working on laptop",
+      authors: "Unsplash",
+      year: "2024",
+      citation: '[15] "Person working on laptop," Unsplash, 2024. [Online]. Available: https://images.unsplash.com/photo-1581726707445-75cbe4efc586. [Accessed: Mar. 29, 2025].',
+    },
+    {
+      id: 16,
+      type: "image",
+      title: "Person working on computer",
+      authors: "Unsplash",
+      year: "2024",
+      citation: '[16] "Person working on computer," Unsplash, 2024. [Online]. Available: https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866. [Accessed: Mar. 29, 2025].',
+    },
+    {
+      id: 17,
+      type: "image",
+      title: "Group study session",
+      authors: "Unsplash",
+      year: "2024",
+      citation: '[17] "Group study session," Unsplash, 2024. [Online]. Available: https://images.unsplash.com/photo-1543269865-cbf427effbad. [Accessed: Mar. 29, 2025].',
+    },
+    {
+      id: 18,
+      type: "image",
+      title: "University lecture hall",
+      authors: "Unsplash",
+      year: "2024",
+      citation: '[18] "University lecture hall," Unsplash, 2024. [Online]. Available: https://images.unsplash.com/photo-1552664730-d307ca884978. [Accessed: Mar. 29, 2025].',
     }
   ])
 
@@ -152,6 +201,7 @@ export default function ReferencesPage() {
                         {ref.type === "website" && <Globe className="h-5 w-5 text-primary" />}
                         {ref.type === "document" && <FileText className="h-5 w-5 text-primary" />}
                         {ref.type === "video" && <Video className="h-5 w-5 text-primary" />}
+                        {ref.type === "image" && <Image className="h-5 w-5 text-primary" />}
                       </div>
                       <div className="flex-1">
                         <p className="text-sm font-medium">{ref.title}</p>

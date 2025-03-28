@@ -36,9 +36,9 @@ const timelineData = {
     title: "Discovery Phase",
     icon: <Lightbulb className="h-6 w-6 text-amber-600" />,
     content:
-      "Our research revealed striking insights about misinformation's impact on UAE college students. We discovered a significant correlation between academic performance and susceptibility to misinformation, with concerning patterns emerging across different student demographics. The prevalence of health-related misconceptions among technically-minded university students highlighted critical gaps in scientific literacy and evaluation skills.",
+      "Our research revealed striking insights about misinformation's impact on UAE college students. We discovered a significant correlation between academic performance and susceptibility to misinformation, with concerning patterns emerging across different student demographics. The prevalence of misconceptions about Health-related information among technically-minded university students highlighted critical gaps in scientific literacy and evaluation skills.",
     stats: [
-      { value: 44, label: "Health-related misconceptions", color: "teal" },
+      { value: 44, label: "Misconceptions about Health-related information", color: "teal" },
       { value: 42, label: "Students recommended critical thinking", color: "amber" },
       { value: 75, label: "Students with lower GPAs more susceptible", color: "indigo" },
     ],

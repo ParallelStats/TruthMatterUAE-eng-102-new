@@ -122,6 +122,43 @@ export default function AboutPage() {
 
         <section>
           <h2 className="text-2xl font-bold tracking-tighter md:text-3xl mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-indigo-600 dark:from-teal-400 dark:to-indigo-400">
+            Our Methodology
+          </h2>
+          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
+            <div className="space-y-4">
+              <p className="text-gray-500 dark:text-gray-400">
+                Our research employs a mixed-methods approach combining quantitative and qualitative data collection to evaluate how misinformation affects college students in the UAE. We conducted surveys with 24-30 randomly selected undergraduate students from Khalifa University across different academic years.
+              </p>
+              <p className="text-gray-500 dark:text-gray-400">
+                Each survey underwent rigorous review processes, including peer assessment and faculty evaluation, to ensure clarity, validity, and absence of bias. We also conducted pilot testing with a small student group to refine our questionnaire before full deployment.
+              </p>
+              <p className="text-gray-500 dark:text-gray-400">
+                Our data collection framework includes:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-gray-500 dark:text-gray-400">
+                <li>Demographic information (GPA, college, gender)</li>
+                <li>Quantitative measures through multiple-choice and true/false questions</li>
+                <li>Qualitative responses through open-ended reflective questions</li>
+              </ul>
+            </div>
+            <div className="space-y-4">
+              <p className="text-gray-500 dark:text-gray-400">
+                For data analysis, we employed various statistical tools including percentages, bar charts, and pie charts for quantitative data interpretation. Qualitative responses underwent thorough thematic analysis to identify patterns in student experiences with misinformation.
+              </p>
+              <p className="text-gray-500 dark:text-gray-400">
+                This comprehensive approach allows us to not only measure the prevalence of misinformation among UAE college students but also understand the correlations between academic performance and susceptibility to false information. Our findings inform the development of targeted educational interventions designed specifically for the UAE student population.
+              </p>
+              <div className="mt-4 p-4 bg-primary/5 rounded-lg border border-primary/10">
+                <p className="text-sm text-gray-500 dark:text-gray-400 italic">
+                  "Our research revealed that 54% of students encounter misinformation daily, with social media being the primary source. We also found a correlation between GPA levels and susceptibility to misinformation, highlighting the need for enhanced critical thinking education."
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold tracking-tighter md:text-3xl mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-indigo-600 dark:from-teal-400 dark:to-indigo-400">
             Our Team
           </h2>
           <div className="grid gap-6">
@@ -154,4 +191,3 @@ export default function AboutPage() {
     </div>
   )
 }
-

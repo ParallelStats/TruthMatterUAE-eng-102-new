@@ -127,24 +127,31 @@ export default function AboutPage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
               <p className="text-gray-500 dark:text-gray-400">
-                We employ a mixed-methods approach combining quantitative and qualitative data collection through surveys with 24-30 randomly selected Khalifa University students. Each survey undergoes rigorous peer and faculty review to ensure validity and unbiased assessment.
+                We employed a mixed-methods approach combining quantitative and qualitative data collection through 
+                a survey of 24-30 randomly selected Khalifa University students. The survey underwent rigorous peer 
+                and faculty review to ensure validity and unbiased assessment.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
-                Our data collection framework includes:
+                Our single data collection initiative included:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-500 dark:text-gray-400">
                 <li>Demographic information (GPA, college, gender)</li>
-                <li>Quantitative measures via multiple-choice and true/false questions</li>
+                <li>Quantitative measures via structured multiple-choice and true/false questions</li>
                 <li>Qualitative responses through open-ended reflective questions</li>
               </ul>
             </div>
             <div className="space-y-4">
               <p className="text-gray-500 dark:text-gray-400">
-                Data analysis utilizes statistical tools for quantitative interpretation alongside thematic analysis for qualitative responses. This approach allows us to measure misinformation prevalence and understand correlations between academic performance and susceptibility to false information.
+                Data analysis utilized statistical analysis for quantitative data from our single comprehensive survey, 
+                alongside thematic analysis for qualitative responses. This unified approach allowed us to measure 
+                misinformation prevalence while understanding correlations between academic performance and 
+                susceptibility to false information.
               </p>
               <div className="mt-4 p-4 bg-primary/5 rounded-lg border border-primary/10">
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Our research identified key patterns: 54% of students encounter misinformation daily, primarily through social media (43%), with significant correlations between GPA and ability to identify false information.
+                  Our survey identified key patterns: 54% of students encounter misinformation daily, 
+                  primarily through social media (43%), with significant correlations between GPA and ability to 
+                  identify false information.
                 </p>
               </div>
             </div>

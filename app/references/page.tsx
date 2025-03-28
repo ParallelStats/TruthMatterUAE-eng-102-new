@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Copy, FileText, Book, Globe } from "lucide-react"
+import { Copy, FileText, Book, Globe, Video } from "lucide-react"
 
 export default function ReferencesPage() {
   const [references, setReferences] = useState([

@@ -149,9 +149,7 @@ export default function AboutPage() {
               </p>
               <div className="mt-4 p-4 bg-primary/5 rounded-lg border border-primary/10">
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Our survey identified key patterns: 54% of students encounter misinformation daily, 
-                  primarily through social media (43%), with significant correlations between GPA and ability to 
-                  identify false information.
+                  {/* Removed statistics paragraph */}
                 </p>
               </div>
             </div>

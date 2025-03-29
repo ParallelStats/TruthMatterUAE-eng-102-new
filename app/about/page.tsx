@@ -147,11 +147,6 @@ export default function AboutPage() {
                 misinformation prevalence while understanding correlations between academic performance and 
                 susceptibility to false information.
               </p>
-              <div className="mt-4 p-4 bg-primary/5 rounded-lg border border-primary/10">
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  {/* Removed statistics paragraph */}
-                </p>
-              </div>
             </div>
           </div>
         </section>

@@ -171,7 +171,7 @@ export default function ReferencesPage() {
             References
           </h1>
           <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl dark:text-gray-300">
-            Sources and citations for our educational resources and research
+            Sources and citations for our educational resources, research, and images used.
           </p>
         </div>
       </div>
